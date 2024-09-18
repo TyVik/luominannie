@@ -1,0 +1,80 @@
+baseURL = "https://adityatelange.github.io/"
+title = ""
+copyright = ""
+paginate = 5
+theme = [ "hugo-PaperMod" ]
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = ""
+author = ""
+defaultTheme = "light"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+disableThemeToggle = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = false
+images = [ "images/cover.webp" ]
+
+  [params.homeInfoParams]
+  Title = "LÚMÍ<div>Pearl Things</div>"
+  Content = """
+&bigstar; &bigstar; &bigstar;
+
+сумочки из бусин
+
+и другие жемчужные штучки
+
+&bigstar; &bigstar; &bigstar;
+"""
+
+  [[params.socialIcons]]
+  name = "vk"
+  title = "VK"
+  url = "https://vk.com/lumi_pearl_things"
+
+  [[params.socialIcons]]
+  name = "instagram"
+  title = "Instagram"
+  url = "https://www.instagram.com/lumi_pearl_things"
+
+  [[params.socialIcons]]
+  name = "telegram"
+  title = "Телеграм-канал"
+  url = "https://t.me/luominannieArt"
+
+  [[params.socialIcons]]
+  name = "ym"
+  title = "Ярмарка мастеров"
+  url = "https://www.livemaster.ru/laborantka"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
