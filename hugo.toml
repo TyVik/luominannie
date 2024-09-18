@@ -1,8 +1,8 @@
-baseURL = "https://adityatelange.github.io/"
+baseURL = "https://luominannie.ru/"
 title = ""
 copyright = ""
 paginate = 5
-theme = [ "hugo-PaperMod" ]
+theme = [ "PaperMod" ]
 enableInlineShortcodes = true
 enableRobotsTXT = true
 buildDrafts = false
